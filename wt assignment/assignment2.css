@@ -1,0 +1,21 @@
+*{
+	font-family: sans-serif;
+}
+
+.form-css input{
+	margin: 10px 0px 0px 10px;
+	padding: 10px;
+	vertical-align: center;
+	background-color: 
+}
+
+.form-css label{
+	padding-left: 10px;
+}
+
+.form-css button{
+	border: 1px solid black;
+	background-color: black ;
+	color: yellow;
+	padding: 7px 15px;
+}
