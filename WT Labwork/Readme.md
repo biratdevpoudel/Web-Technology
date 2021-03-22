@@ -14,7 +14,9 @@ Relative An element with position: relative; is positioned relative to its norma
 
 For stacking images we have CSS z-Index property. The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.
 
-z-index: 0 or 1; Question 3: Program to illustrate drag and drop element using Js For implementing drag and drop using js we will have to use events (mousedown and mouseup in this case). This can be achieved by using addEventListener from js.
+z-index: 0 or 1; 
+
+Question 3: Program to illustrate drag and drop element using Js For implementing drag and drop using js we will have to use events (mousedown and mouseup in this case). This can be achieved by using addEventListener from js.
 
 element.addEventListener(type, listener [, options]); When we register a Mouse Event we will be provided with clientX and clientY property. Using these two properties is the key to the anser for this question.
 
