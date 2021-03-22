@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>Program to illustrate element positioning, staking elements</title>
+
+  <style>
+    #img1{
+                position:absolute;
+            }
+    #img2{
+                position:absolute;
+                top:26px;
+                left: 100px;
+                
+    }
+  </style>
+</head>
+
+<body>
+  <img src="html.jpeg" id="img1" width="500" height="400">
+  <img src="html2.jpeg" id="img2" width="1000" height="400">
+
+  <script>
+    var img1 = document.getElementById('img1');
+    var img2 = document.getElementById('img2');
+
+    img1.addEventListener('click', function (ev) {
+      img1.style.zIndex = 1;
+      img2.style.zIndex = 0;
+    });
+    img2.addEventListener('click', function (ev) {
+      img2.style.zIndex = 1;
+      img1.style.zIndex = 0;
+    });
+
+  </script>
+</body>
+</html> 
