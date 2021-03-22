@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Program to illustrate drag and drop elements and change font style of texts in JS.</title>
+</head>
+<body>
+  <span style="position: absolute; top: 100px;left: 50px;background-color: black;color: white;" onmousedown="Click(event);">Drag</span>
+  <span style="position: absolute; top: 100px;left: 100px;background-color: black;color: white;" onmousedown="Click(event);">Drop</span>
+
+  <script type="text/javascript">
+     var element;
+       function Click(event){
+       element = event.currentTarget;
+
+       document.addEventListener("mousemove",move,true);
+        document.addEventListener("mouseup",drop,true);
+    } 
+
+         function move(event){
+        element.style.left = event.clientX+"px";
+         element.style.up = event.clientY+"px";
+    }
+
+        function drop(event){
+        document.removeEventListener("mousemove",move,true);
+         document.removeEventListener("mousetop",drop,true);
+    }
+  </script>
+</body>
+</html>
