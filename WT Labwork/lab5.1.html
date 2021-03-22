@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Program to alter visibility of an image of HTML document using JS</title>
+    <style>
+        image{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <img id="img" src="html.jpeg" alt="HTML Icon" width="500" height="500">
+    <button onclick="myfunction()"> show/hide </button>
+
+    <script>
+        function myfunction()
+        {
+            var x = document.getElementById('img');
+            if(x.style.visibility === 'hidden')
+        {
+            x.style.visibility = 'visible';
+        }
+        else
+        {
+            x.style.visibility = 'hidden';
+        }
+        }
+    </script>
+</body>
+</html>
