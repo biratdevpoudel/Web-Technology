@@ -1,3 +1,5 @@
+Lab 5.
+
 Question 1: Program to alter visibility of an image in HTML document using Js We can alter visibility of an image in HTML document by using CSS property, either by visibility: or by display: .
 
 CSS Visibility The visibility property specifies whether or not an element is visible. It has couple of values that we can use.
@@ -25,3 +27,49 @@ NOTE: clientX property returns the horizontal coordinate (according to the clien
 Question 4: Program to illustrate dynamic content using Js An webpage is known to be dynamic if the contents in that webpage changes as per the user input. By DOM Manipulation using JS this can be achieved.
 
 Question 5: Program to illustrate from validation using Js There are many ways and many parts to validate a form. One simple way is to check whether the HTML Form fields are filled. DOM manipulation can be used to solve this too.
+
+
+Lab6 | PHP.
+
+Associative array:
+Associative arrays are used to store key value pairs. The associative arrays are very similar to numeric arrays in term of functionality but they are different in terms of their index. Associative array will have their index as string so that you can establish a strong association between key and values.
+
+
+Foreach Loop:
+The foreach loop works only on arrays and objects, and is used to loop through each key/value pair in an array.
+
+
+Array Functions:
+The array functions allow you to access and manipulate arrays. Simple and multi-dimensional arrays are supported. Some array functions are given below:
+
+array():	used to create a new array
+array_pop():	deletes the last element of an array
+array_push():	insert new element to the end of an array
+sort():	sort the elements of the array in ascending alphabetical order
+sizeof():	return the number of elements in an array
+
+
+String Functions:
+The string functions allows you to access and manipulate strings. Some string functions are:
+
+echo():	outputs one or more strings
+strcmp():	compares two strings
+strlen():	returns the length of a string
+substr():	returns a part of a string
+trim():	removes predefined characters from a string
+
+
+Array Sort:
+Array sort = Sorts array in ascending alphabetical/numerical order. Some PHP Functions For Sorting Arrays are given below:
+
+sort():	sort arrays in ascending order
+rsort():	sort arrays in descending order
+asort():	sort associative arrays in ascending order, according to the value
+ksort():	sort associative arrays in ascending order, according to the key
+
+
+Classes and Objects:
+
+A class is a template for objects, and an object is an instance of class. A class is defined by using the class keyword, followed by the name of the class and a pair of curly braces ({}). All its properties and methods go inside the braces. We can create multiple objects from a class. Each object has all the properties and methods defined in the class, but they will have different property values. Objects of a class is created using the new keyword.
+
+
