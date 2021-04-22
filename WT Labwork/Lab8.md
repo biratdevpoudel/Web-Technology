@@ -27,9 +27,9 @@ Insert Multiple Data
 
 MariaDB [gces]> INSERT INTO student 
 (`name`,`address`,`phone_number`,`bio`) VALUES 
-("sudarshan","hemja",9837822886,"hello"),
-("Prasanna","masbar",983728272, "hi"),
-("Sandesh","birauta",8483829292,"my name is sandesh"),
+("sudarshan","hemja",9837822886,"I love birds"),
+("Prasanna","masbar",983728272, "I love to see nature"),
+("Sandesh","birauta",8483829292,"I love colours"),
 ;
 Rename Table
 
