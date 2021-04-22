@@ -47,7 +47,7 @@ MariaDB [gces]> UPDATE students
 Select Record
 
 MariaDB [gces]> SELECT * FROM students WHERE name = "Sandesh";
-MariaDB [gces]> SELECT * FROM students WHERE name LIKE "G%";
+MariaDB [gces]> SELECT * FROM students WHERE name LIKE "S%";
 Update Record
 
 MariaDB [gces]> UPDATE students
