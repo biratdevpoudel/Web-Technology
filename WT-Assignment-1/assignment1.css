@@ -1,0 +1,25 @@
+table, th, td {
+    text-align: left;
+    border: 2px solid navy;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1{
+      text-align: left;
+  }
+  
+  ol li{
+      text-align: Left;
+      font-size: 20px;
+  }
+  
+  ul li{
+      text-align: Left;
+      font-size: 20px;
+  }
+  
+  .square li{
+      list-style: Left;
+  } 
